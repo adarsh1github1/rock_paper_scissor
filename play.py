@@ -2,7 +2,7 @@
 import cv2
 import os
 import numpy as np
-from keras.applications import MobileNet
+from keras.applications.mobilenet import MobileNet
 from keras.optimizers import Adam
 from keras.utils import np_utils
 from keras.layers import Activation, Dropout, Convolution2D, GlobalAveragePooling2D
